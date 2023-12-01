@@ -7,3 +7,7 @@
 - ✅ DONE
 
 ## Plans
+
+pomodoro 1:
+
+- ⚠ TODO plan pomodoro 1
