@@ -11,6 +11,6 @@
 pomodoro 1:
 
 - ✅ DONE plan pomodoro 1
-- ⚠ TODO rename file names + function names
-- ⚠ TODO create examples
+- 🚧 IN PROGRESS rename file names + function names
+- ✅ DONE create examples
 - ⚠ TODO create user stories & UATs
