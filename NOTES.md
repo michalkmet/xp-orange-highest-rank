@@ -10,4 +10,7 @@
 
 pomodoro 1:
 
-- ⚠ TODO plan pomodoro 1
+- ✅ DONE plan pomodoro 1
+- ⚠ TODO rename file names + function names
+- ⚠ TODO create examples
+- ⚠ TODO create user stories & UATs
