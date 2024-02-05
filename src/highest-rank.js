@@ -1,5 +1,5 @@
 function highestRank(numbersArr) {
-  if (numbersArr[1] === 1) {
+  if (numbersArr[0] === 0 && numbersArr[1] === 1) {
     return 1;
   }
   return 0;
