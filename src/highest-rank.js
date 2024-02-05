@@ -1,8 +1,18 @@
 function highestRank(numbersArr) {
-  if (numbersArr[0] === 0 && numbersArr[1] === 1) {
-    return 1;
+  let result = 0;
+  let countObj = {};
+  numbersArr.sort();
+  for (let i = 0; i < numbersArr.length; i++) {
+    console.log('i: ', i);
+    console.log('numbersArr[i]: ', numbersArr[i]);
+    if (numbersArr[i] in countObj) {
+      countObj[numbersArr[i]] += 1;
+    } else {
+      countObj[numbersArr[i]] = 1;
+    }
   }
-  return 0;
+  console.log('countObj: ', countObj);
+  return result;
 }
 
 module.exports = highestRank;
