@@ -14,11 +14,11 @@ function highestRank(numbersArr) {
 function createObjWithNumbersCount(numbersArr) {
   let countObj = {};
   numbersArr.sort();
-  for (let i = 0; i < numbersArr.length; i++) {
-    if (numbersArr[i] in countObj) {
-      countObj[numbersArr[i]] += 1;
+  for (let number of numbersArr) {
+    if (number in countObj) {
+      countObj[number] += 1;
     } else {
-      countObj[numbersArr[i]] = 1;
+      countObj[number] = 1;
     }
   }
   return countObj;

@@ -36,3 +36,4 @@ pomodoro 3:
 
 - ✅ DONE UAT2.1: When I pass [12, 10, 8, 8, 3, 3, 3, 3, 2, 4, 10, 12, 10] , then I should see the 3
 - ✅ DONE complexity
+- ✅ DONE code smell
