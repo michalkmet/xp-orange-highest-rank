@@ -19,4 +19,7 @@ describe('Story1: small number in arr', () => {
   it('UAT1.6: When I pass [0,0,1,2] , then I should see the 0', () => {
     expect(highestRank([0, 0, 1, 2])).toBe(0);
   });
+  it('UAT1.7: When I pass [6,3,12,4,2] , then I should see the 12', () => {
+    expect(highestRank([6, 3, 12, 4, 2])).toBe(12);
+  });
 });
