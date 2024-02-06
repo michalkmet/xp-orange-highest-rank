@@ -23,3 +23,9 @@ describe('Story1: small number in arr', () => {
     expect(highestRank([6, 3, 12, 4, 2])).toBe(12);
   });
 });
+
+describe('Story2: bigger arr', () => {
+  it('UAT2.1: When I pass [12, 10, 8, 8, 3, 3, 3, 3, 2, 4, 10, 12, 10] , then I should see the 3', () => {
+    expect(highestRank([12, 10, 8, 8, 3, 3, 3, 3, 2, 4, 10, 12, 10])).toBe(3);
+  });
+});
