@@ -26,7 +26,7 @@ pomodoro 2:
 
 pomodoro 3:
 
-- 🚧 IN PROGRESS UAT1.4: When I pass [0,0,1,1] , then I should see the 1
-- ⚠ TODO UAT1.5: When I pass [0,1,2] , then I should see the 2
+- ✅ DONE UAT1.4: When I pass [0,0,1,1] , then I should see the 1
+- ✅ DONE UAT1.5: When I pass [0,1,2] , then I should see the 2
 - ⚠ TODO UAT1.6: When I pass [0,0,1,2] , then I should see the 0
 - ⚠ TODO UAT1.7: When I pass [6,3,12,4,2] , then I should see the 12
